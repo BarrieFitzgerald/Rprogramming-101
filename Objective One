@@ -1,0 +1,67 @@
+## Welcome to learning the basic R operations
+
+## LEARNING OBJECTIVE ONE
+## Learn basic operation language to begin data analysis, 
+## to which some examples will be connected back to 
+## basic Excel functions.
+
+
+## 1. Assigning data to an object in the environment
+
+## We have the following data and want to store it to be working with it
+        ## run the following code below
+                ## Note: in running code there are two options
+                ## 1. Highlight the code and click the "Run" button
+                ## 2. Highlight the code and do Ctrl + R
+
+c(1, 2, "b", "1a", NA)
+
+        ## To assign data in R, we use one of the following options
+        ## <-
+x.a <- c(1, 2, "b", "1a", NA)
+        ## ->
+c(1, 2, "b", "1a", NA) -> x.b
+        ## =
+x.c = c(1, 2, "b", "1a", NA)
+        ## Let's compare
+x.a; x.b; x.c
+
+        ## IMPORTANT NOTE: There is no one set way to code.
+                ## There is no set standards or guidelines of coding in R.
+                ## There are only suggestions
+
+## Let's clear the environment
+rm(x.a, x.b, x.c)
+
+## 2. Operational and Logic Signs
+ops.logic <- data.frame(type = c(rep("Arithmetic ", 5), 
+                                 rep("Logical", 8)),
+                        operation = c("Add", "Subtract", "Multiply", "Divide","Exponent",
+                                      "Equal", "Greater than", "Greater or equal to",
+                                      "Less than", "Less or equal to", "Not equal", "And",  "Or"),
+                        excel = c("+", "-", "*", "/","^","=", ">", 
+                                  ">=", "<", "<=", "<>", "AND", "OR"), 
+                        rprogram = c("+", "-", "*", "/","^ or **","==", ">", 
+                                     ">=", "<", "<=", "!=", "&", "|"))
+
+## 3. Numeric Functions
+num.chars <- data.frame(operation = c("Absolute value", "Square root", "Ceiling", 
+                                     "Floor", "Trunc", "Round", "Concatenate",
+                                      "Substring", "Upper case", "Lower case", 
+                                     "Substitute", "Search or Find", 
+                                     "Average or Mean", "Median", "Sum", "Min", "Max"), 
+                        excel = c("ABS(cell)", "SQRT(cell)", "ROUNDUP(cell,0)", "ROUNDDOWN(cel,0)", 
+                                  "TRUNC(cell)", "ROUND(cell, digits)", "CONCATENATE(cell,cell)", "LEFT(cell, number)", 
+                                  "UPPER(cell)", "LOWER(cell)", "SUBSTITUE(cell, pattern, replace)", 
+                                  "FIND(text, cell) or SEARCH(text, cell)", 
+                                  "AVERAGE(cells)", "MEDIAN(cells)", "SUM(cells)", "MIN()", "MAX()"), 
+                        rprogram = c("abs(x)", "sqrt(x)", "ceiling(x)", "floor(x)", 
+                                     "trunc(x)", "round(x, digits)", "paste(x, y, sep = )", 
+                                     "substr(, start, stop)", "toupper()", "tolower()", 
+                                     "gsub(x , pattern , replacement)", 
+                                     "grep(x, pattern)", 
+                                     "mean(x, na.rm = TRUE)", 
+                                     "median(x, na.rm = TRUE)", 
+                                     "sum(x, na.rm = TRUE)", 
+                                     "max(x, na.rm = TRUE", 
+                                     "min(x, na.rm = TRUE)"))
