@@ -1,0 +1,396 @@
+VariableName,Value,ValueLabel
+State abbreviation (HD2014),AL,Alabama
+State abbreviation (HD2014),AK,Alaska
+State abbreviation (HD2014),AZ,Arizona
+State abbreviation (HD2014),AR,Arkansas
+State abbreviation (HD2014),CA,California
+State abbreviation (HD2014),CO,Colorado
+State abbreviation (HD2014),CT,Connecticut
+State abbreviation (HD2014),DE,Delaware
+State abbreviation (HD2014),DC,District of Columbia
+State abbreviation (HD2014),FL,Florida
+State abbreviation (HD2014),GA,Georgia
+State abbreviation (HD2014),HI,Hawaii
+State abbreviation (HD2014),ID,Idaho
+State abbreviation (HD2014),IL,Illinois
+State abbreviation (HD2014),IN,Indiana
+State abbreviation (HD2014),IA,Iowa
+State abbreviation (HD2014),KS,Kansas
+State abbreviation (HD2014),KY,Kentucky
+State abbreviation (HD2014),LA,Louisiana
+State abbreviation (HD2014),ME,Maine
+State abbreviation (HD2014),MD,Maryland
+State abbreviation (HD2014),MA,Massachusetts
+State abbreviation (HD2014),MI,Michigan
+State abbreviation (HD2014),MN,Minnesota
+State abbreviation (HD2014),MS,Mississippi
+State abbreviation (HD2014),MO,Missouri
+State abbreviation (HD2014),MT,Montana
+State abbreviation (HD2014),NE,Nebraska
+State abbreviation (HD2014),NV,Nevada
+State abbreviation (HD2014),NH,New Hampshire
+State abbreviation (HD2014),NJ,New Jersey
+State abbreviation (HD2014),NM,New Mexico
+State abbreviation (HD2014),NY,New York
+State abbreviation (HD2014),NC,North Carolina
+State abbreviation (HD2014),ND,North Dakota
+State abbreviation (HD2014),OH,Ohio
+State abbreviation (HD2014),OK,Oklahoma
+State abbreviation (HD2014),OR,Oregon
+State abbreviation (HD2014),PA,Pennsylvania
+State abbreviation (HD2014),RI,Rhode Island
+State abbreviation (HD2014),SC,South Carolina
+State abbreviation (HD2014),SD,South Dakota
+State abbreviation (HD2014),TN,Tennessee
+State abbreviation (HD2014),TX,Texas
+State abbreviation (HD2014),UT,Utah
+State abbreviation (HD2014),VT,Vermont
+State abbreviation (HD2014),VA,Virginia
+State abbreviation (HD2014),WA,Washington
+State abbreviation (HD2014),WV,West Virginia
+State abbreviation (HD2014),WI,Wisconsin
+State abbreviation (HD2014),WY,Wyoming
+Geographic region (HD2014),0,US Service schools
+Geographic region (HD2014),1,New England CT ME MA NH RI VT
+Geographic region (HD2014),2,Mid East DE DC MD NJ NY PA
+Geographic region (HD2014),3,Great Lakes IL IN MI OH WI
+Geographic region (HD2014),4,Plains IA KS MN MO NE ND SD
+Geographic region (HD2014),5,Southeast AL AR FL GA KY LA MS NC SC TN VA WV
+Geographic region (HD2014),6,Southwest AZ NM OK TX
+Geographic region (HD2014),7,Rocky Mountains CO ID MT UT WY
+Geographic region (HD2014),8,Far West AK CA HI NV OR WA
+Sector of institution (HD2014),0,Administrative Unit
+Sector of institution (HD2014),1,"Public, 4-year or above"
+Sector of institution (HD2014),2,"Private not-for-profit, 4-year or above"
+Sector of institution (HD2014),3,"Private for-profit, 4-year or above"
+Sector of institution (HD2014),4,"Public, 2-year"
+Sector of institution (HD2014),5,"Private not-for-profit, 2-year"
+Sector of institution (HD2014),6,"Private for-profit, 2-year"
+Sector of institution (HD2014),7,"Public, less-than 2-year"
+Sector of institution (HD2014),8,"Private not-for-profit, less-than 2-year"
+Sector of institution (HD2014),9,"Private for-profit, less-than 2-year"
+Sector of institution (HD2014),99,Sector unknown (not active)
+Level of institution (HD2014),1,Four or more years
+Level of institution (HD2014),2,At least 2 but less than 4 years
+Level of institution (HD2014),3,Less than 2 years (below associate)
+Level of institution (HD2014),-3,{Not available}
+Control of institution (HD2014),1,Public
+Control of institution (HD2014),2,Private not-for-profit
+Control of institution (HD2014),3,Private for-profit
+Control of institution (HD2014),-3,{Not available}
+State abbreviation (HD2013),AL,Alabama
+State abbreviation (HD2013),AK,Alaska
+State abbreviation (HD2013),AZ,Arizona
+State abbreviation (HD2013),AR,Arkansas
+State abbreviation (HD2013),CA,California
+State abbreviation (HD2013),CO,Colorado
+State abbreviation (HD2013),CT,Connecticut
+State abbreviation (HD2013),DE,Delaware
+State abbreviation (HD2013),DC,District of Columbia
+State abbreviation (HD2013),FL,Florida
+State abbreviation (HD2013),GA,Georgia
+State abbreviation (HD2013),HI,Hawaii
+State abbreviation (HD2013),ID,Idaho
+State abbreviation (HD2013),IL,Illinois
+State abbreviation (HD2013),IN,Indiana
+State abbreviation (HD2013),IA,Iowa
+State abbreviation (HD2013),KS,Kansas
+State abbreviation (HD2013),KY,Kentucky
+State abbreviation (HD2013),LA,Louisiana
+State abbreviation (HD2013),ME,Maine
+State abbreviation (HD2013),MD,Maryland
+State abbreviation (HD2013),MA,Massachusetts
+State abbreviation (HD2013),MI,Michigan
+State abbreviation (HD2013),MN,Minnesota
+State abbreviation (HD2013),MS,Mississippi
+State abbreviation (HD2013),MO,Missouri
+State abbreviation (HD2013),MT,Montana
+State abbreviation (HD2013),NE,Nebraska
+State abbreviation (HD2013),NV,Nevada
+State abbreviation (HD2013),NH,New Hampshire
+State abbreviation (HD2013),NJ,New Jersey
+State abbreviation (HD2013),NM,New Mexico
+State abbreviation (HD2013),NY,New York
+State abbreviation (HD2013),NC,North Carolina
+State abbreviation (HD2013),ND,North Dakota
+State abbreviation (HD2013),OH,Ohio
+State abbreviation (HD2013),OK,Oklahoma
+State abbreviation (HD2013),OR,Oregon
+State abbreviation (HD2013),PA,Pennsylvania
+State abbreviation (HD2013),RI,Rhode Island
+State abbreviation (HD2013),SC,South Carolina
+State abbreviation (HD2013),SD,South Dakota
+State abbreviation (HD2013),TN,Tennessee
+State abbreviation (HD2013),TX,Texas
+State abbreviation (HD2013),UT,Utah
+State abbreviation (HD2013),VT,Vermont
+State abbreviation (HD2013),VA,Virginia
+State abbreviation (HD2013),WA,Washington
+State abbreviation (HD2013),WV,West Virginia
+State abbreviation (HD2013),WI,Wisconsin
+State abbreviation (HD2013),WY,Wyoming
+Geographic region (HD2013),0,US Service schools
+Geographic region (HD2013),1,New England CT ME MA NH RI VT
+Geographic region (HD2013),2,Mid East DE DC MD NJ NY PA
+Geographic region (HD2013),3,Great Lakes IL IN MI OH WI
+Geographic region (HD2013),4,Plains IA KS MN MO NE ND SD
+Geographic region (HD2013),5,Southeast AL AR FL GA KY LA MS NC SC TN VA WV
+Geographic region (HD2013),6,Southwest AZ NM OK TX
+Geographic region (HD2013),7,Rocky Mountains CO ID MT UT WY
+Geographic region (HD2013),8,Far West AK CA HI NV OR WA
+Sector of institution (HD2013),0,Administrative Unit
+Sector of institution (HD2013),1,"Public, 4-year or above"
+Sector of institution (HD2013),2,"Private not-for-profit, 4-year or above"
+Sector of institution (HD2013),3,"Private for-profit, 4-year or above"
+Sector of institution (HD2013),4,"Public, 2-year"
+Sector of institution (HD2013),5,"Private not-for-profit, 2-year"
+Sector of institution (HD2013),6,"Private for-profit, 2-year"
+Sector of institution (HD2013),7,"Public, less-than 2-year"
+Sector of institution (HD2013),8,"Private not-for-profit, less-than 2-year"
+Sector of institution (HD2013),9,"Private for-profit, less-than 2-year"
+Sector of institution (HD2013),99,Sector unknown (not active)
+Level of institution (HD2013),1,Four or more years
+Level of institution (HD2013),2,At least 2 but less than 4 years
+Level of institution (HD2013),3,Less than 2 years (below associate)
+Level of institution (HD2013),-3,{Not available}
+Control of institution (HD2013),1,Public
+Control of institution (HD2013),2,Private not-for-profit
+Control of institution (HD2013),3,Private for-profit
+Control of institution (HD2013),-3,{Not available}
+State abbreviation (HD2012),AL,Alabama
+State abbreviation (HD2012),AK,Alaska
+State abbreviation (HD2012),AZ,Arizona
+State abbreviation (HD2012),AR,Arkansas
+State abbreviation (HD2012),CA,California
+State abbreviation (HD2012),CO,Colorado
+State abbreviation (HD2012),CT,Connecticut
+State abbreviation (HD2012),DE,Delaware
+State abbreviation (HD2012),DC,District of Columbia
+State abbreviation (HD2012),FL,Florida
+State abbreviation (HD2012),GA,Georgia
+State abbreviation (HD2012),HI,Hawaii
+State abbreviation (HD2012),ID,Idaho
+State abbreviation (HD2012),IL,Illinois
+State abbreviation (HD2012),IN,Indiana
+State abbreviation (HD2012),IA,Iowa
+State abbreviation (HD2012),KS,Kansas
+State abbreviation (HD2012),KY,Kentucky
+State abbreviation (HD2012),LA,Louisiana
+State abbreviation (HD2012),ME,Maine
+State abbreviation (HD2012),MD,Maryland
+State abbreviation (HD2012),MA,Massachusetts
+State abbreviation (HD2012),MI,Michigan
+State abbreviation (HD2012),MN,Minnesota
+State abbreviation (HD2012),MS,Mississippi
+State abbreviation (HD2012),MO,Missouri
+State abbreviation (HD2012),MT,Montana
+State abbreviation (HD2012),NE,Nebraska
+State abbreviation (HD2012),NV,Nevada
+State abbreviation (HD2012),NH,New Hampshire
+State abbreviation (HD2012),NJ,New Jersey
+State abbreviation (HD2012),NM,New Mexico
+State abbreviation (HD2012),NY,New York
+State abbreviation (HD2012),NC,North Carolina
+State abbreviation (HD2012),ND,North Dakota
+State abbreviation (HD2012),OH,Ohio
+State abbreviation (HD2012),OK,Oklahoma
+State abbreviation (HD2012),OR,Oregon
+State abbreviation (HD2012),PA,Pennsylvania
+State abbreviation (HD2012),RI,Rhode Island
+State abbreviation (HD2012),SC,South Carolina
+State abbreviation (HD2012),SD,South Dakota
+State abbreviation (HD2012),TN,Tennessee
+State abbreviation (HD2012),TX,Texas
+State abbreviation (HD2012),UT,Utah
+State abbreviation (HD2012),VT,Vermont
+State abbreviation (HD2012),VA,Virginia
+State abbreviation (HD2012),WA,Washington
+State abbreviation (HD2012),WV,West Virginia
+State abbreviation (HD2012),WI,Wisconsin
+State abbreviation (HD2012),WY,Wyoming
+Geographic region (HD2012),0,US Service schools
+Geographic region (HD2012),1,New England CT ME MA NH RI VT
+Geographic region (HD2012),2,Mid East DE DC MD NJ NY PA
+Geographic region (HD2012),3,Great Lakes IL IN MI OH WI
+Geographic region (HD2012),4,Plains IA KS MN MO NE ND SD
+Geographic region (HD2012),5,Southeast AL AR FL GA KY LA MS NC SC TN VA WV
+Geographic region (HD2012),6,Southwest AZ NM OK TX
+Geographic region (HD2012),7,Rocky Mountains CO ID MT UT WY
+Geographic region (HD2012),8,Far West AK CA HI NV OR WA
+Sector of institution (HD2012),0,Administrative Unit
+Sector of institution (HD2012),1,"Public, 4-year or above"
+Sector of institution (HD2012),2,"Private not-for-profit, 4-year or above"
+Sector of institution (HD2012),3,"Private for-profit, 4-year or above"
+Sector of institution (HD2012),4,"Public, 2-year"
+Sector of institution (HD2012),5,"Private not-for-profit, 2-year"
+Sector of institution (HD2012),6,"Private for-profit, 2-year"
+Sector of institution (HD2012),7,"Public, less-than 2-year"
+Sector of institution (HD2012),8,"Private not-for-profit, less-than 2-year"
+Sector of institution (HD2012),9,"Private for-profit, less-than 2-year"
+Sector of institution (HD2012),99,Sector unknown (not active)
+Level of institution (HD2012),1,Four or more years
+Level of institution (HD2012),2,At least 2 but less than 4 years
+Level of institution (HD2012),3,Less than 2 years (below associate)
+Level of institution (HD2012),-3,{Not available}
+Control of institution (HD2012),1,Public
+Control of institution (HD2012),2,Private not-for-profit
+Control of institution (HD2012),3,Private for-profit
+Control of institution (HD2012),-3,{Not available}
+State abbreviation (HD2011),AL,Alabama
+State abbreviation (HD2011),AK,Alaska
+State abbreviation (HD2011),AZ,Arizona
+State abbreviation (HD2011),AR,Arkansas
+State abbreviation (HD2011),CA,California
+State abbreviation (HD2011),CO,Colorado
+State abbreviation (HD2011),CT,Connecticut
+State abbreviation (HD2011),DE,Delaware
+State abbreviation (HD2011),DC,District of Columbia
+State abbreviation (HD2011),FL,Florida
+State abbreviation (HD2011),GA,Georgia
+State abbreviation (HD2011),HI,Hawaii
+State abbreviation (HD2011),ID,Idaho
+State abbreviation (HD2011),IL,Illinois
+State abbreviation (HD2011),IN,Indiana
+State abbreviation (HD2011),IA,Iowa
+State abbreviation (HD2011),KS,Kansas
+State abbreviation (HD2011),KY,Kentucky
+State abbreviation (HD2011),LA,Louisiana
+State abbreviation (HD2011),ME,Maine
+State abbreviation (HD2011),MD,Maryland
+State abbreviation (HD2011),MA,Massachusetts
+State abbreviation (HD2011),MI,Michigan
+State abbreviation (HD2011),MN,Minnesota
+State abbreviation (HD2011),MS,Mississippi
+State abbreviation (HD2011),MO,Missouri
+State abbreviation (HD2011),MT,Montana
+State abbreviation (HD2011),NE,Nebraska
+State abbreviation (HD2011),NV,Nevada
+State abbreviation (HD2011),NH,New Hampshire
+State abbreviation (HD2011),NJ,New Jersey
+State abbreviation (HD2011),NM,New Mexico
+State abbreviation (HD2011),NY,New York
+State abbreviation (HD2011),NC,North Carolina
+State abbreviation (HD2011),ND,North Dakota
+State abbreviation (HD2011),OH,Ohio
+State abbreviation (HD2011),OK,Oklahoma
+State abbreviation (HD2011),OR,Oregon
+State abbreviation (HD2011),PA,Pennsylvania
+State abbreviation (HD2011),RI,Rhode Island
+State abbreviation (HD2011),SC,South Carolina
+State abbreviation (HD2011),SD,South Dakota
+State abbreviation (HD2011),TN,Tennessee
+State abbreviation (HD2011),TX,Texas
+State abbreviation (HD2011),UT,Utah
+State abbreviation (HD2011),VT,Vermont
+State abbreviation (HD2011),VA,Virginia
+State abbreviation (HD2011),WA,Washington
+State abbreviation (HD2011),WV,West Virginia
+State abbreviation (HD2011),WI,Wisconsin
+State abbreviation (HD2011),WY,Wyoming
+Geographic region (HD2011),0,US Service schools
+Geographic region (HD2011),1,New England CT ME MA NH RI VT
+Geographic region (HD2011),2,Mid East DE DC MD NJ NY PA
+Geographic region (HD2011),3,Great Lakes IL IN MI OH WI
+Geographic region (HD2011),4,Plains IA KS MN MO NE ND SD
+Geographic region (HD2011),5,Southeast AL AR FL GA KY LA MS NC SC TN VA WV
+Geographic region (HD2011),6,Southwest AZ NM OK TX
+Geographic region (HD2011),7,Rocky Mountains CO ID MT UT WY
+Geographic region (HD2011),8,Far West AK CA HI NV OR WA
+Sector of institution (HD2011),0,Administrative Unit
+Sector of institution (HD2011),1,"Public, 4-year or above"
+Sector of institution (HD2011),2,"Private not-for-profit, 4-year or above"
+Sector of institution (HD2011),3,"Private for-profit, 4-year or above"
+Sector of institution (HD2011),4,"Public, 2-year"
+Sector of institution (HD2011),5,"Private not-for-profit, 2-year"
+Sector of institution (HD2011),6,"Private for-profit, 2-year"
+Sector of institution (HD2011),7,"Public, less-than 2-year"
+Sector of institution (HD2011),8,"Private not-for-profit, less-than 2-year"
+Sector of institution (HD2011),9,"Private for-profit, less-than 2-year"
+Sector of institution (HD2011),99,Sector unknown (not active)
+Level of institution (HD2011),1,Four or more years
+Level of institution (HD2011),2,At least 2 but less than 4 years
+Level of institution (HD2011),3,Less than 2 years (below associate)
+Level of institution (HD2011),-3,{Not available}
+Control of institution (HD2011),1,Public
+Control of institution (HD2011),2,Private not-for-profit
+Control of institution (HD2011),3,Private for-profit
+Control of institution (HD2011),-3,{Not available}
+State abbreviation (HD2010),AL,Alabama
+State abbreviation (HD2010),AK,Alaska
+State abbreviation (HD2010),AZ,Arizona
+State abbreviation (HD2010),AR,Arkansas
+State abbreviation (HD2010),CA,California
+State abbreviation (HD2010),CO,Colorado
+State abbreviation (HD2010),CT,Connecticut
+State abbreviation (HD2010),DE,Delaware
+State abbreviation (HD2010),DC,District of Columbia
+State abbreviation (HD2010),FL,Florida
+State abbreviation (HD2010),GA,Georgia
+State abbreviation (HD2010),HI,Hawaii
+State abbreviation (HD2010),ID,Idaho
+State abbreviation (HD2010),IL,Illinois
+State abbreviation (HD2010),IN,Indiana
+State abbreviation (HD2010),IA,Iowa
+State abbreviation (HD2010),KS,Kansas
+State abbreviation (HD2010),KY,Kentucky
+State abbreviation (HD2010),LA,Louisiana
+State abbreviation (HD2010),ME,Maine
+State abbreviation (HD2010),MD,Maryland
+State abbreviation (HD2010),MA,Massachusetts
+State abbreviation (HD2010),MI,Michigan
+State abbreviation (HD2010),MN,Minnesota
+State abbreviation (HD2010),MS,Mississippi
+State abbreviation (HD2010),MO,Missouri
+State abbreviation (HD2010),MT,Montana
+State abbreviation (HD2010),NE,Nebraska
+State abbreviation (HD2010),NV,Nevada
+State abbreviation (HD2010),NH,New Hampshire
+State abbreviation (HD2010),NJ,New Jersey
+State abbreviation (HD2010),NM,New Mexico
+State abbreviation (HD2010),NY,New York
+State abbreviation (HD2010),NC,North Carolina
+State abbreviation (HD2010),ND,North Dakota
+State abbreviation (HD2010),OH,Ohio
+State abbreviation (HD2010),OK,Oklahoma
+State abbreviation (HD2010),OR,Oregon
+State abbreviation (HD2010),PA,Pennsylvania
+State abbreviation (HD2010),RI,Rhode Island
+State abbreviation (HD2010),SC,South Carolina
+State abbreviation (HD2010),SD,South Dakota
+State abbreviation (HD2010),TN,Tennessee
+State abbreviation (HD2010),TX,Texas
+State abbreviation (HD2010),UT,Utah
+State abbreviation (HD2010),VT,Vermont
+State abbreviation (HD2010),VA,Virginia
+State abbreviation (HD2010),WA,Washington
+State abbreviation (HD2010),WV,West Virginia
+State abbreviation (HD2010),WI,Wisconsin
+State abbreviation (HD2010),WY,Wyoming
+Geographic region (HD2010),0,US Service schools
+Geographic region (HD2010),1,New England CT ME MA NH RI VT
+Geographic region (HD2010),2,Mid East DE DC MD NJ NY PA
+Geographic region (HD2010),3,Great Lakes IL IN MI OH WI
+Geographic region (HD2010),4,Plains IA KS MN MO NE ND SD
+Geographic region (HD2010),5,Southeast AL AR FL GA KY LA MS NC SC TN VA WV
+Geographic region (HD2010),6,Southwest AZ NM OK TX
+Geographic region (HD2010),7,Rocky Mountains CO ID MT UT WY
+Geographic region (HD2010),8,Far West AK CA HI NV OR WA
+Sector of institution (HD2010),0,Administrative Unit
+Sector of institution (HD2010),1,"Public, 4-year or above"
+Sector of institution (HD2010),2,"Private not-for-profit, 4-year or above"
+Sector of institution (HD2010),3,"Private for-profit, 4-year or above"
+Sector of institution (HD2010),4,"Public, 2-year"
+Sector of institution (HD2010),5,"Private not-for-profit, 2-year"
+Sector of institution (HD2010),6,"Private for-profit, 2-year"
+Sector of institution (HD2010),7,"Public, less-than 2-year"
+Sector of institution (HD2010),8,"Private not-for-profit, less-than 2-year"
+Sector of institution (HD2010),9,"Private for-profit, less-than 2-year"
+Sector of institution (HD2010),99,Sector unknown (not active)
+Level of institution (HD2010),1,Four or more years
+Level of institution (HD2010),2,At least 2 but less than 4 years
+Level of institution (HD2010),3,Less than 2 years (below associate)
+Level of institution (HD2010),-3,{Not available}
+Control of institution (HD2010),1,Public
+Control of institution (HD2010),2,Private not-for-profit
+Control of institution (HD2010),3,Private for-profit
+Control of institution (HD2010),-3,{Not available}
