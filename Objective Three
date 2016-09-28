@@ -1,0 +1,214 @@
+## Welcome to analyzing data with R
+
+## LEARNING OBJECTIVE THREE
+## Learn the value of plyr, dplyr, and tidyr packages
+
+## Let's use some IPEDS data
+
+###############################
+###############################
+###############################
+
+## 1. Loading the data into R
+
+## 1a. Set the working directory
+## getwd() inform where the working directory is
+## setwd() sets the directory
+
+setwd("C:/Users/Bdfitzgerald/Desktop/")
+
+## 1b. Finding the file
+## list.files() will allow you to see all of the files in the directory
+
+dat.file.name <- list.files(pattern = "ipeds_dat", full.names = TRUE)
+
+## 1c. Pulling in the file
+
+dat <- read.csv(dat.file.name, header = TRUE, stringsAsFactors = FALSE)
+
+dat <- read.csv("./ipeds_data_pull_sair_r101_wkshp.csv", header = TRUE, stringsAsFactors = FALSE)
+
+rm(dat.file.name)
+
+## 2. Installing and loading packages 
+
+## 2a. Installing packages
+## install.packages("package name")
+
+## install.packages("plyr")
+## install.packages("dplyr")
+## install.packages("tidyr")
+## install.packages("ggplot2")
+
+## 2b. Loading packages
+## library(package name)
+
+library(plyr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+###############################
+###############################
+###############################
+
+## 3. Examining the data
+
+## 3a. Viewing the data. 
+
+## In Excel, the data is there for one to view; however, in R
+## the data isn't in plain view. Select the "dat" from the environment.
+
+## In the Console, one can type "dat", and the data will print in the console. 
+## Not recommended if the data file is large
+
+## In R there are ways to see the data without the entire dataset being printed in the console.
+
+## head(x, number of rows) shows only the first six rows
+head(dat)
+## tail(x, number of rows) shows only the last six rows
+tail(dat)
+
+## If the dataset has a lot of columns, it may be hard to see all of the colname names
+
+## colnames(x) shows only the column names
+
+
+
+## Examing the structure and summary of the data
+
+## str(x) shows the column names, type of variable, and some of the data for that column
+
+
+
+## summary(x) shows some descriptive stats of the data
+
+
+
+
+###############################
+###############################
+###############################
+
+## 4. Analyzing the data
+
+## Data Wrangling Cheet Sheet.
+## https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
+
+## Datawatch defines it as: 
+## "Data Wrangling is the process of cleaning and 
+## unifying messy and complex data sets."
+## http://www.datawatch.com/what-is-data-wrangling/
+
+## 4a. Let's rearrange the data to only have the following columns:
+## ID, Institution Name, Column name becomes a variable, and all of data becomes a column
+
+## Changing the data from this
+
+## data.sample
+
+## ID           Name            Enroll.2014     Enroll.2013
+## 14000        Inst.S.U        12354           12102
+## 14015        Inst.s.Un       11023           10100
+
+## to this
+
+## data.sample.rs
+
+## ID           Name            ColName         Data
+## 14000        Inst.S.U        Enroll.2014     12354
+## 14000        Inst.S.U        Enroll.2013     12102
+## 14015        Inst.S.Un       Enroll.2014     11023
+## 14015        Inst.S.Un       Enroll.2013     10100
+
+## code to perform this action
+## data.sample.rs <- data.sample %>%
+##              gather(ColName, 
+##                     Data, 
+##                    -ID, 
+##                    -Name)
+
+
+
+
+
+
+
+
+
+## 4b. Creating a new variable
+
+## Let's create a year variable
+
+## unique(x) will show the unique variables
+
+
+## Right Function: There is not equivalent to the RIGHT() in Excel
+## instead either the internet search comes in handy or a function must be created
+
+right <- function (string, char){
+        substr(string,nchar(string) - (char-1), 
+               nchar(string))
+}
+## function found on https://andreacirilloblog.wordpress.com/2014/10/27/excel-right-function-in-r/
+
+x <- 2014
+right(x, 1)
+
+
+## data.sample.rs
+
+## ID           Name            ColName         Data    Year
+## 14000        Inst.S.U        Enroll.2014     12354   2014
+## 14000        Inst.S.U        Enroll.2013     12102   2013
+## 14015        Inst.S.Un       Enroll.2014     11023   2014
+## 14015        Inst.S.Un       Enroll.2013     10100   2013
+
+## code to perform this action
+## data.sample.rs <- data.sample.rs %>%
+##              mutate(Year = right(ColName, 4))
+
+
+
+
+## The year variable needs to be clean up
+## This can be done through the gsub function
+## gsub(x, pattern, replacement)
+
+x <- "as_2014_rv"
+gsub(x = x, pattern = "2014", replacement = "")
+
+## let's look at the Regular Expression Syntax section found at:
+## http://www.endmemo.com/program/R/gsub.php
+
+gsub(x = x, pattern = "[A-z]|[[:punct:]]", replacement = "")
+
+
+
+
+
+###############################
+###############################
+###############################
+
+## 5. Let's find out the total enrollment
+
+## Let's look at a random institution variables
+samp.uni <- dat.rs %>% filter(UnitID == 134130 &
+                                      grepl(x = tolower(variables), 
+                                            pattern = "total..enroll")) %>%
+        select(results, 
+               year)
+
+## Now let's find out the enrollment across the nation
+
+View(
+dat.rs %>% filter(grepl(x = tolower(variables), 
+                        pattern = "total..enroll")) %>%
+        mutate(results = as.numeric(results)) %>%
+        select(year, 
+               results) 
+)
+
+
+
