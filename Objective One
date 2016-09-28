@@ -9,26 +9,26 @@
 ## 1. Assigning data to an object in the environment
 
 ## We have the following data and want to store it to be working with it
-        ## run the following code below
-                ## Note: in running code there are two options
-                ## 1. Highlight the code and click the "Run" button
-                ## 2. Highlight the code and do Ctrl + R
+## run the following code below
+## Note: in running code there are two options
+## 1. Highlight the code and click the "Run" button
+## 2. Highlight the code and do Ctrl + R
 
 c(1, 2, "b", "1a", NA)
 
-        ## To assign data in R, we use one of the following options
-        ## <-
+## To assign data in R, we use one of the following options
+## <-
 x.a <- c(1, 2, "b", "1a", NA)
-        ## ->
+## ->
 c(1, 2, "b", "1a", NA) -> x.b
-        ## =
+## =
 x.c = c(1, 2, "b", "1a", NA)
-        ## Let's compare
+## Let's compare
 x.a; x.b; x.c
 
-        ## IMPORTANT NOTE: There is no one set way to code.
-                ## There is no set standards or guidelines of coding in R.
-                ## There are only suggestions
+## IMPORTANT NOTE: There is no one set way to code.
+## There is no set standards or guidelines of coding in R.
+## There are only suggestions
 
 ## Let's clear the environment
 rm(x.a, x.b, x.c)
@@ -46,15 +46,17 @@ ops.logic <- data.frame(type = c(rep("Arithmetic ", 5),
 
 ## 3. Numeric Functions
 num.chars <- data.frame(operation = c("Absolute value", "Square root", "Ceiling", 
-                                     "Floor", "Trunc", "Round", "Concatenate",
+                                      "Floor", "Trunc", "Round", "Concatenate",
                                       "Substring", "Upper case", "Lower case", 
-                                     "Substitute", "Search or Find", 
-                                     "Average or Mean", "Median", "Sum", "Min", "Max"), 
+                                      "Substitute", "Search or Find", 
+                                      "Average or Mean", "Median", "Sum", "Min", "Max", 
+                                      "Length"), 
                         excel = c("ABS(cell)", "SQRT(cell)", "ROUNDUP(cell,0)", "ROUNDDOWN(cel,0)", 
                                   "TRUNC(cell)", "ROUND(cell, digits)", "CONCATENATE(cell,cell)", "LEFT(cell, number)", 
                                   "UPPER(cell)", "LOWER(cell)", "SUBSTITUE(cell, pattern, replace)", 
                                   "FIND(text, cell) or SEARCH(text, cell)", 
-                                  "AVERAGE(cells)", "MEDIAN(cells)", "SUM(cells)", "MIN()", "MAX()"), 
+                                  "AVERAGE(cells)", "MEDIAN(cells)", "SUM(cells)", "MIN()", "MAX()", 
+                                  "COUNT() or COUNTA()"), 
                         rprogram = c("abs(x)", "sqrt(x)", "ceiling(x)", "floor(x)", 
                                      "trunc(x)", "round(x, digits)", "paste(x, y, sep = )", 
                                      "substr(, start, stop)", "toupper()", "tolower()", 
@@ -64,4 +66,54 @@ num.chars <- data.frame(operation = c("Absolute value", "Square root", "Ceiling"
                                      "median(x, na.rm = TRUE)", 
                                      "sum(x, na.rm = TRUE)", 
                                      "max(x, na.rm = TRUE", 
-                                     "min(x, na.rm = TRUE)"))
+                                     "min(x, na.rm = TRUE)", 
+                                     "nrow() or length()"))
+
+## 4. Condition Statements
+## If Statements in Excel
+## EXCEL:
+## =IF(test, value for true, value for false)
+
+## R 
+## ifelse(test, value for true, value for false)
+## if (test) { value for true } else { value for false}
+## Note this one is used in for loops
+
+x <- c(1:10)
+x
+cbind(x, ifelse(x < 5, 1, 0))
+rbind(x, ifelse(x < 5, 1, 0))
+
+
+## 5. For Loops
+## CAUTION: make sure the loop has a stopping point
+## because the loop can be stuck in an infinity loop
+
+## EXCEL: 
+## This is the drag the formula down to all cells
+
+## R:
+## for (value in sequence) {expression}
+
+x[1]; x[2]; x[3]; x[4]; print("etc.") 
+
+
+length(x)
+
+for (i in 1:length(x)) {
+        print(x[i])
+}
+
+
+## 6. Sorting the data
+# the following data set needs to be sorted by column Y
+x <- data.frame(x = 1:10, 
+                y = c(5, 6, 1, 8, 9, 
+                      10, 12, -25, -10, 0))
+
+
+x[order(x$y),] ## ascending order
+x[order(-x$y),] ## descending order
+
+## Let's go a head and move to Objective Two
+
