@@ -115,5 +115,21 @@ x <- data.frame(x = 1:10,
 x[order(x$y),] ## ascending order
 x[order(-x$y),] ## descending order
 
-## Let's go a head and move to Objective Two
+## 7. Creating a user defined function
+## function(x) {}
 
+samp.dat <- data.frame(yr = 1:4,
+                       a = c(100, 65, 79, 90), 
+                       b = c(90, 100, 80, 10), 
+                       c = c(25, 50, 70, 100), 
+                       d = c(50, 10, 100, 70))
+
+sum()/total.possible
+mean()
+sd()
+min()
+max()
+median()
+
+
+## Let's go a head and move to Objective Three
