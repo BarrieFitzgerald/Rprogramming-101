@@ -186,6 +186,10 @@ gsub(x = x, pattern = "2014", replacement = "")
 gsub(x = x, pattern = "[A-z]|[[:punct:]]", replacement = "")
 
 
+## colnames(x)
+## unique(data$variable)
+
+
 
 
 
