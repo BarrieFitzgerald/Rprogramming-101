@@ -124,7 +124,7 @@ samp.dat <- data.frame(yr = 1:4,
                        c = c(25, 50, 70, 100), 
                        d = c(50, 10, 100, 70))
 
-sum()/total.possible
+sum()
 mean()
 sd()
 min()
