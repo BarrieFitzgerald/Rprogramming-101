@@ -30,8 +30,35 @@ x.a; x.b; x.c
 ## There is no set standards or guidelines of coding in R.
 ## There are only suggestions
 
+## Selection of one data point within a list of data 
+
+## x.a[1]
+
+## [1] "1"
+
+## x.a[3]
+
+## [1] "b"
+
+
+
+
 ## Let's clear the environment
 rm(x.a, x.b, x.c)
+
+
+## Generate a sequence of numbers
+
+## 1:5
+
+## 1 2 3 4 5
+
+## seq(1, 5)
+
+## 1 2 3 4 5
+
+
+
 
 ## 2. Operational and Logic Signs
 ops.logic <- data.frame(type = c(rep("Arithmetic ", 5), 
@@ -43,6 +70,15 @@ ops.logic <- data.frame(type = c(rep("Arithmetic ", 5),
                                   ">=", "<", "<=", "<>", "AND", "OR"), 
                         rprogram = c("+", "-", "*", "/","^ or **","==", ">", 
                                      ">=", "<", "<=", "!=", "&", "|"))
+
+## data[row, column]
+
+## ops.logic[3, ]
+
+##            type     operation  excel   rprogram      
+##  3   Arithmetics         Add       +          +
+
+
 
 ## 3. Numeric Functions
 num.chars <- data.frame(operation = c("Absolute value", "Square root", "Ceiling", 
