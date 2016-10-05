@@ -40,7 +40,8 @@ x.a; x.b; x.c
 
 ## [1] "b"
 
-
+## Finding your NA or NaN values
+is.na()
 
 
 ## Let's clear the environment
