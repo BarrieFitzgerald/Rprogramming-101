@@ -193,7 +193,7 @@ gsub(x = x, pattern = "[A-z]|[[:punct:]]", replacement = "")
 
 ## 5. Let's find out the total enrollment
 
-## Let's look at a random institution variables
+## Let's look at a random institution variable
 samp.uni <- dat.rs %>% filter(UnitID == 134130 &
                                       grepl(x = tolower(variables), 
                                             pattern = "total..enroll")) %>%
