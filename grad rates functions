@@ -1,0 +1,18 @@
+test <- function(sa) {
+        x <- ipeds_data %>%
+                select(`State abbreviation (HD2014)`, 
+                       `Graduation rate - Bachelor degree within 6 years  total (DRVGR2014)`, 
+                       `Graduation rate - Bachelor degree within 6 years  total (DRVGR2013_RV)`, 
+                       `Graduation rate - bachelor's degree within 6 years  total (DRVGR2012_RV)`) %>%
+                filter(`State abbreviation (HD2014)` == sa) %>%
+                gather(varname, 
+                       results,
+                       -`State abbreviation (HD2014)`) %>%
+                mutate(year = right(varname, 8), 
+                       year = substr(year, 1, 4),
+                       year = ifelse(year == "VGR2", "2014", year)) %>%
+                group_by(`State abbreviation (HD2014)`, 
+                         year) %>%
+                summarize(grad.avg = mean(results, na.rm = TRUE))
+        return(x)
+}
